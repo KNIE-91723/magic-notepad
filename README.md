@@ -22,15 +22,21 @@ Designed with a dark-mode interface perfect for **Kali Linux** and late-night co
 └──────────────────────────────────────────────────────────────┘
 ```
 ## Features
+
 **1. Distraction-Free UI:** No complex toolbars or ribbons. Just you and your text.
+
 **2. Magic Formatting:** 
 * Type `**bold**` → Instantly becomes bold.
 * Type `//italic//` → Instantly becomes italic.
+* 
 **3. Dynamic Colors:** Type `colorname::text::` (e.g., `red::alert::`) to paint words instantly.
+  
 **4. Secure Storage:** Saves files in strict **JSON format** (`.ntp`). Unlike other Python editors that use pickle, this application does not execute code when opening files, making it safe for sharing.
+  
 **5. Dark Mode:** Built with a `#2d2d2d` dark theme to match standard Linux terminals.
 
 ## Installation
+
 ### Linux (Kali / Ubuntu / Debian)
 This tool relies on `tkinter`, which is sometimes missing from minimal Linux installs.
 
