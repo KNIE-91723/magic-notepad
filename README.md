@@ -28,7 +28,7 @@ Designed with a dark-mode interface perfect for **Kali Linux** and late-night co
 **2. Magic Formatting:** 
 * Type `**bold**` → Instantly becomes bold.
 * Type `//italic//` → Instantly becomes italic.
-* 
+  
 **3. Dynamic Colors:** Type `colorname::text::` (e.g., `red::alert::`) to paint words instantly.
   
 **4. Secure Storage:** Saves files in strict **JSON format** (`.ntp`). Unlike other Python editors that use pickle, this application does not execute code when opening files, making it safe for sharing.
