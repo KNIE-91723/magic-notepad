@@ -2,14 +2,14 @@
 import tkinter as tk
 from tkinter import font, filedialog, messagebox
 import re
-import json  # Changed from pickle to json for security
+import json  
 
 class MagicNotepadLinux:
     def __init__(self, root):
         self.root = root
         self.root.title("Magic Notepad")
         self.root.geometry("800x600")
-        self.root.configure(bg="#2d2d2d") # Dark mode for Kali feel!
+        self.root.configure(bg="#2d2d2d") 
 
         # --- 1. MINIMAL TOOLBAR (Dark Theme) ---
         self.toolbar = tk.Frame(root, bg="#2d2d2d", height=40)
@@ -139,7 +139,7 @@ class MagicNotepadLinux:
             if tag in ["bold_style", "italic_style"] or tag.startswith("dynamic_color_"):
                 ranges = self.text_area.tag_ranges(tag)
                 if ranges:
-                    # Convert Tkinter tuples to strings for JSON compatibility
+                    # strings for JSON compatibility
                     tags_data[tag] = [str(r) for r in ranges]
 
         data = {"text": text_content, "tags": tags_data}
